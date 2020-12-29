@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>
+            variable
+        </title>
+	</head>
+
+
+
+   <body>
+       
+        <input type="text" id="textentered">
+		<p id="text">this is a paragraph</p>
+	    <button id="changetext">change paragraph</button>
+		
+		
+   	    <script type="text/javascript">
+            
+			
+			document.getElementById("changetext").onclick=function(){
+			var textinput="";
+			   
+			textinput=document.getElementById("textentered").value
+            document.getElementById("text").innerHTML=textinput;
+			}
+				
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,24 @@
+<html>
+
+<head>
+	<title>array</title>
+</head>
+
+<body>
+	<h1 id="array"></h1>
+	<script type="text/javascript">
+		var myArray = new Array();
+		myArray[0] = "moni";
+		myArray[1] = "kumari";
+		var tweets = ["Good Morning everybody", "How Are You"];
+
+		tweets.splice(2, 0, "moni singh please go for Lunch");
+		tweets.push("back to work");
+		document.getElementById("array").innerHTML = tweets;
+		// This is for console
+		console.log(tweets);
+	</script>
+</body>
+
+
+</html>
